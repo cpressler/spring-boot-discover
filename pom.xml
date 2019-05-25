@@ -20,7 +20,6 @@
 	
     <properties>
          <spring-cloud-dependencies.version>Greenwich.RELEASE</spring-cloud-dependencies.version>
-        <spring-cloud-starter-eureka.version>1.4.6.RELEASE</spring-cloud-starter-eureka.version>
         <org.springframework.boot.version>2.1.5.RELEASE</org.springframework.boot.version>
     </properties>
 

@@ -11,7 +11,7 @@ while [  $COUNTER -lt 6 ]; do
     echo "Waiting for Docker to Initialize"
     let COUNTER=COUNTER+1
 # what on the response from this url tells us when compose api is up
-    STATUS=$(curl -s -o /dev/null -w '%{http_code}' http://localhost:8180/v2/api-docs)
+    STATUS=$(curl -s -o /dev/null -w '%{http_code}' http://localhost:8761)
     if [ $STATUS -eq 200 ]; then
         echo "Got 200! Docker is initialized!"
         break
