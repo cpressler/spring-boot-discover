@@ -3,7 +3,7 @@ set -e
 
 echo "Start entrypoint"
 
-ARTIFACT=spring-boot-discovery
+ARTIFACT=spring-boot-discovery-server
 
 cd /opt/services/${ARTIFACT}/
 # this will force it to run forever in background

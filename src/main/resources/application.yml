@@ -1,6 +1,6 @@
 spring:
   application:
-    name: sv-discovery
+    name: spring-boot-discovery-server
 
 
 server:
@@ -8,7 +8,7 @@ server:
 
 eureka:
   instance:
-    hostname: localhost
+    hostname: ${EURKEKA_HOST:localhost}
   client:
     registerWithEureka: false
     fetchRegistry: false
